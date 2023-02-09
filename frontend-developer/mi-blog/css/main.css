@@ -6,7 +6,7 @@
 
 :root {
     font-size: 62.5%;
-    font-family: Calibri, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     --main-gree: #48cfad;
 }
 
@@ -76,4 +76,36 @@ nav .nav-my-profile a {
     font-size: 1.8rem;
     color: black;
     border-bottom: 1px solid black;
+}
+
+main {
+    position: relative;
+    height: calc(100% - 138px);
+    display: grid;
+    place-content: center;
+    background-image: url('../assets/img/Cover.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    justify-self: center;
+    text-align: center;
+    font-size: 2.8rem;
+    color: white;
+}
+
+main button {
+    width: auto;
+    height: auto;
+    padding: 12px;
+    font-size: 2.0rem;
+    font-weight: bold;
+    background-color: var(--main-gree);
+    border-color: white;
 }
