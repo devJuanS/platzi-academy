@@ -6,6 +6,7 @@
 
 :root {
     font-size: 62.5%;
+    font-family: Calibri, sans-serif;
     --main-gree: #48cfad;
 }
 
@@ -44,4 +45,35 @@ header .header-social-icons .social-icons {
 
 header .social-icons span {
     color: white;
+}
+
+nav {
+    height: calc(100% - 40px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav .nav-logo-container {
+    margin-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav .nav-logo-container img {
+    width: 220px;
+}
+
+nav .nav-my-profile {
+    margin-right: 52px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .nav-my-profile a {
+
+    font-size: 1.8rem;
+    color: black;
+    border-bottom: 1px solid black;
 }
