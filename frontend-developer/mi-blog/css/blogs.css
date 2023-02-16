@@ -1,0 +1,41 @@
+
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.blogs-main {
+    display: grid;
+}
+
+.blogs-news {
+    padding: 8px 10%;
+    background-color: #e6e9ed;
+}
+
+.blogpost-article {
+    margin: 8px 4px 16px 4px;
+}
+
+.blogs-news .blogpost-article {
+    margin-left: 0;
+    margin-right: 0;
+    display: grid;
+    grid-template-columns: 55% auto;
+}
+
+.blogpost-article img {
+    width: 100%;
+}
+
+.blogpost-article__info {
+    padding: 8px 0;
+}
+
+.blogs-news .blogpost-article__info {
+    padding-left: 8vw;
+}
+
+.blogpost-article__info p {
+    margin-bottom: 24px;
+}
