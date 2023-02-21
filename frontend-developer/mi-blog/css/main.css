@@ -9,7 +9,7 @@
 :root {
     font-size: 62.5%;
     font-family: 'Roboto Mono', monospace;
-    --main-green: #48cfad;
+    --color-decoration: #48cfad;
 }
 
 body {
@@ -33,7 +33,7 @@ header {
 header .header-social-icons {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--main-green);
+    background-color: var(--color-decoration);
 }
 
 header .header-social-icons .social-icons {
@@ -110,6 +110,6 @@ nav .nav-my-profile a {
     padding: 12px;
     font-size: 2.0rem;
     font-weight: bold;
-    background-color: var(--main-green);
+    background-color: var(--color-decoration);
     border: 1px solid white;
 }
