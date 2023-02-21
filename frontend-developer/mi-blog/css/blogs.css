@@ -1,4 +1,6 @@
 body {
+    position: relative;
+    height: max-content;
     font-size: 1.2rem;
 }
 
@@ -12,6 +14,7 @@ h3 {
 }
 
 h4 {
+    margin-bottom: 20px;
     font-size: 1.4rem;
 }
 
@@ -19,8 +22,12 @@ h4 {
     display: grid;
 }
 
-.blogs-news {
+.blogs-news,
+.blogposts {
     padding: 8px 10%;
+}
+
+.blogs-news {
     background-color: #e6e9ed;
 }
 
@@ -63,4 +70,22 @@ h4 {
     color: white;
     font-weight: 700;
     cursor: pointer;
+}
+
+.blogposts__title {
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #e6e9ed;
+}
+
+.blogposts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 248px);
+    column-gap: 8px;
+    justify-content: center;
+}
+
+.blogposts-container .blogpost-article__img {
+    width: 100%;
 }
