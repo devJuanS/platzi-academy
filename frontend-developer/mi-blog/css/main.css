@@ -56,7 +56,7 @@ nav {
 }
 
 nav .nav-logo-container {
-    margin-left: 40px;
+    /*margin-left: 40px;*/
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -67,7 +67,7 @@ nav .nav-logo-container img {
 }
 
 nav .nav-my-profile {
-    margin-right: 52px;
+    margin-right: 8px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -94,11 +94,9 @@ nav .nav-my-profile a {
 .home-main__text {
     position: absolute;
     top: 10%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    justify-self: center;
+    margin: 0 5%;
     text-align: center;
-    font-size: 2.8rem;
+    font-size: 2.0rem;
     font-weight: 700;
     letter-spacing: 1.0rem;
     color: white;
@@ -112,4 +110,22 @@ nav .nav-my-profile a {
     font-weight: bold;
     background-color: var(--color-decoration);
     border: 1px solid white;
+}
+
+@media (min-width: 768px) {
+    nav .nav-logo-container {
+        margin-left: 40px;
+    }
+
+    nav .nav-my-profile {
+        margin-right: 52px;
+    }
+
+    .home-main__text {
+        left: 40%;
+        transform: translate(-30%, 0);
+        margin: 0;
+        justify-self: center;
+        font-size: 2.8rem;
+    }
 }
