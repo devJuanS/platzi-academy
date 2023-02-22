@@ -33,24 +33,12 @@ h4 {
     margin: 8px 4px 16px 4px;
 }
 
-.blogs-news .blogpost-article {
-    max-width: 820px;
-    margin-left: 0;
-    margin-right: 0;
-    display: grid;
-    grid-template-columns: 55% auto;
-}
-
 .blogpost-article img {
     width: 100%;
 }
 
 .blogpost-article__info {
     padding: 8px 0;
-}
-
-.blogs-news .blogpost-article__info {
-    padding-left: 25%;
 }
 
 .blogpost-article__info p {
@@ -111,4 +99,18 @@ footer div {
     text-align: center;
     color: white;
     background-color: #22272d;
+}
+
+@media (min-width: 768px) {
+    .blogs-news .blogpost-article {
+        max-width: 820px;
+        margin-left: 0;
+        margin-right: 0;
+        display: grid;
+        grid-template-columns: 60% auto;
+    }
+
+    .blogs-news .blogpost-article__info {
+        padding-left: 25%;
+    }
 }
