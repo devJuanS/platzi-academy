@@ -99,7 +99,9 @@ h4 {
 
 .blogpost__img-container {
     width: 100vw;
+    max-width: 1024px;
     padding: 0 3%;
+    justify-self: center;
     margin-bottom: 28px;
 }
 
@@ -109,7 +111,9 @@ h4 {
 
 .blogpost__detail {
     width: 100vw;
+    max-width: 1024px;
     padding: 0 8%;
+    justify-self: center;
     margin-bottom: 32px;
 }
 
