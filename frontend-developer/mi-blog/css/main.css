@@ -93,7 +93,7 @@ nav .nav-my-profile a {
 
 .home-main__text {
     position: absolute;
-    top: 10%;
+    top: 14%;
     margin: 0 5%;
     text-align: center;
     font-size: 2.0rem;
@@ -122,8 +122,7 @@ nav .nav-my-profile a {
     }
 
     .home-main__text {
-        left: 40%;
-        transform: translate(-30%, 0);
+        max-width: 936px;
         margin: 0;
         justify-self: center;
         font-size: 2.8rem;
